@@ -22,7 +22,6 @@ playAgain.addEventListener('click', newGame);
 
 init();
 
-
 function init() {
     playAgain.classList.add("hidden");
     clearScores();
