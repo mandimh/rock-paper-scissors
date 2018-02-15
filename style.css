@@ -14,6 +14,7 @@ h1 {
 
 button {
     border: none;
+    outline: none;
 }
 
 .container {
@@ -61,12 +62,27 @@ button {
     background: #85702D;
 }
 
+#rock:active {
+    transform: scale(1.05);
+    border: 2px #FFE389 solid;
+}
+
 #paper {
     background: #482058;
 }
 
+#paper:active {
+    transform: scale(1.05);
+    border: 2px #A569BC solid;
+}
+
 #scissors {
     background: #1B5050;
+}
+
+#scissors:active {
+    transform: scale(1.05);
+    border: 2px #5EAFAF solid;
 }
 
 .score div {
